@@ -8,7 +8,7 @@ body {
     flex-direction: column;
   }
 
-  .section1{
+  .section1, footer{
     background-color: #1f2937;
         
   }
@@ -101,7 +101,8 @@ body {
     justify-content: center;
   }
 
-  .wrapper{
+  .wrapper,
+  .items{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -123,6 +124,44 @@ body {
     margin: 16px;
     width: 200px;
     text-align: center;
-    
-    
+
+  }
+
+  .section3{
+    display: flex;
+    background-color: #E5E7EB;
+  }
+
+  .quote{
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;  
+    padding: 50px 70px;
+    margin: 50px 50px; 
+  }
+
+  .blue{
+    display: flex;
+    padding: 40px;
+    margin: 70px;
+    background-color: #3882F6;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+
+  .call{
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+
+  footer{
+    text-align: center;
+    padding: 20px;
+    color: white;
   }
